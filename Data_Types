@@ -9,4 +9,12 @@ complex eg:5+3j
 Str : In Python, a str (string) is a sequence of characters enclosed within single quotes (') or double quotes ("). 
 Strings are immutable, meaning once they are created, their contents cannot be changed.
  eg:txt = "naveen"
+
+list :
+Python, a list is a versatile and mutable data structure that can hold a collection of items. 
+Lists are defined using square brackets [ ] and can contain elements of different data types
 #list eg:my_list = [1,2,3,8,9]
+tuple:
+In Python, a tuple is a collection of ordered and immutable elements.
+Tuples are defined using parentheses () and can contain elements of different data types
+my_tuple=(1,2,3,4,5,"sai")
