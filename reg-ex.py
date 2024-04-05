@@ -27,3 +27,28 @@ patern = r"garu"
 rep = "saiiiiii"
 subst = re.sub(patern,rep,text2)
 print("new modifed content",subst)
+
+===========
+import re
+text="naaveen naveen varma how are you naaveen"
+word="naaveen"
+serch=re.match(word,text)
+if serch :
+    print("match found the searched ",serch.group())
+else :
+    print("The match not found")
+
+text1 = "I am thinking to change my name as naveen" 
+pat="naveen"
+ot=text1.replace(pat,"varma")
+print(ot)
+
+mytext = "hello madam how are you wat are you doing"
+opt=mytext.split(" ")
+print("splited words are ",opt)
+
+stext = "my name is anna"
+ss=r"anna"
+rr="naveen varma"
+fot=re.sub(ss,rr,stext)
+print(fot)
