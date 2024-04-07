@@ -1,4 +1,4 @@
-1.intruduction  //shell vs python 
+1.intruduction  //shell vs python
 2.variables
 3.list //immutable it have the diffrent kind of objects 
 4.tuple //mutable ,we can modify the objects
