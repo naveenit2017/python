@@ -1,19 +1,10 @@
-#leap year if year is divded by 4 that number is leap year.
-#make use the functions concept and 
+my_list=[]
+for i in range(1,10):
+    my_list.append(i)
+my_list.append("naveen varma")
 
-def is_leap_year(year):
-    if year%4==0:
-        return True
-    else :
-        return False
-
-#Enter the input from key board.
-year=int(input("Enter the year :"))
-if is_leap_year(year):
-    print("This is leap year",year)
-else:
-    print("This is not leap year",year)
-
-
-
-
+my_list.reverse()
+print(my_list)
+print(my_list.pop(0))
+print(my_list)
+print(my_list.index(1))
